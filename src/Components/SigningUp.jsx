@@ -8,10 +8,10 @@ function SigningUp() {
     const [formData, setFormData] = useState({
         firstName: "".toUpperCase(),
         lastName: "",
-        userName: "ola",
-        dateOfBirth: "17",
-        password: "12345678",
-        confirmPassword: "1234567",
+        userName: "",
+        dateOfBirth: "",
+        password: "",
+        confirmPassword: "",
     });
 
     const [errors, setErrors] = useState({})
