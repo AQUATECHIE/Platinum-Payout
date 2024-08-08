@@ -6,8 +6,8 @@ import { useNavigate } from "react-router-dom";
 function SigningUp() {
 
     const [formData, setFormData] = useState({
-        firstName: "amole".toUpperCase(),
-        lastName: "Quwam",
+        firstName: "".toUpperCase(),
+        lastName: "",
         userName: "ola",
         dateOfBirth: "17",
         password: "12345678",
@@ -18,10 +18,11 @@ function SigningUp() {
     const navigate = useNavigate();
 
     const handleChange = (event) => {
-        const { name, value } = event.target;
+        const { id, value } = event.target;
+        console.log(event)
         setFormData({
             ...formData,
-            [name]: value,
+            [id]: value,
         });
     };
 
@@ -57,6 +58,8 @@ function SigningUp() {
             console.log(formData)
             navigate('/')
         }
+        fetch("https://platinumpay.onrender.com/api/user/login/6679515907e05876ffeda1c2", {method:"PATCH"},  formData)
+        .then((res)=>console.log(res.body))
     }
 
 
@@ -71,7 +74,8 @@ function SigningUp() {
                         <input type="text"
                             id="firstName"
                             value={formData.firstName}
-                            onChange={handleChange}
+                            name="firstName"
+                            onChange={(e)=>handleChange(e)}
                             required
                         />
                     </div>
