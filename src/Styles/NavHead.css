@@ -1,12 +1,12 @@
 .navbar{
-    padding: 20px;
+    padding: 20px !important;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: hsla(0, 100%, 1%, 0.61) !important;
     position: static !important;
     z-index: 1000 !important;
     top: 0 !important;
+    background-color: hsla(0, 100%, 1%, 0.61) !important;
 
 }
 .navbar-brand{

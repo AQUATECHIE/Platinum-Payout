@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../Styles/NavHead.css";
+import '../Styles/NavHead.css'
 
 
 
@@ -14,7 +14,7 @@ function Nav() {
     return (
         <>
 
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg navbar-light ">
                 <a className="navbar-brand" href="/home">Platinum <span>Payout</span></a>
                 <button className="navbar-toggler" type="button"
                  onClick={toggleNavbar} aria-controls="navbarNav" 
@@ -27,13 +27,13 @@ function Nav() {
                             <a className="nav-link" href="/review">Online Casino reviews <span>|</span></a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/games">Casino Games <span>|</span></a>
+                            <a className="nav-link" href="/games">Platinum casino <span>|</span></a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/spot">Sport Betting <span>|</span></a>
+                            <a className="nav-link" href="/spot">Platinum bets <span>|</span></a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link " href="/vip">VIP <span>|</span></a>
+                            <a className="nav-link " href="/vip">Platinum funding <span>|</span></a>
                         </li>
                     </ul>
                 </div>
