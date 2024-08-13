@@ -15,7 +15,7 @@ function Nav() {
         <>
 
             <nav className="navbar navbar-expand-lg navbar-light ">
-                <a className="navbar-brand" href="/home">Platinum <span>Payout</span></a>
+                <a className="navbar-brand" href="/">Platinum <span>Payout</span></a>
                 <button className="navbar-toggler" type="button"
                  onClick={toggleNavbar} aria-controls="navbarNav" 
                  aria-expanded={isOpen ? "true" : "false"} aria-label="Toggle navigation">
