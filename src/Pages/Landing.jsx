@@ -2,6 +2,7 @@ import Sidebar from "../Components/SideBar.jsx";
 import Bar from "../Components/Bar.jsx";
 
 
+
 function Landing (){
 
    
@@ -11,6 +12,7 @@ function Landing (){
 
             <Bar />
             <Sidebar  />
+            
             
         </>
     );
