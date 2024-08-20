@@ -1,7 +1,6 @@
 import {BrowserRouter as  Router, Routes,Route }from 'react-router-dom'
-import LandingPage from './Pages/LandingPage.jsx'
-import SignUp from './Pages/Signup.jsx'
-import Login from './Pages/LoginPage.jsx';
+// import Sidebar from './Components/SideBar.jsx';
+import Landing from './Pages/Landing.jsx';
 
 
 
@@ -13,9 +12,8 @@ function App() {
       <>
         <Router>
             <Routes>
-            <Route path='/' element={ <LandingPage/> }/> 
-            <Route path='/signup' element={<SignUp/>}/>
-            <Route path='/login' element={<Login/>}/>
+            <Route path='/' element={ <Landing/> }/> 
+            
             
             </Routes>
         </Router>
