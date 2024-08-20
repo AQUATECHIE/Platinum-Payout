@@ -1,12 +1,17 @@
-import NavBar from "../Components/NavBar.jsx";
 import Sidebar from "../Components/SideBar.jsx";
+import Bar from "../Components/Bar.jsx";
+
 
 function Landing (){
+
+   
+
     return(
         <>
 
-            <Sidebar />
-            <NavBar />
+            <Bar />
+            <Sidebar  />
+            
         </>
     );
 }
