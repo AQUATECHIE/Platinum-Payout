@@ -5,7 +5,7 @@
     height: 65vh;
     margin: auto;
     overflow: hidden;
-    right: 40px;
+    right: 20px;
     border-radius: 10px;
   }
   
@@ -20,6 +20,15 @@
     box-sizing: border-box;
     position: relative;
     height: 100%;
+  }
+  .Bet button{
+    padding: 10px;
+    width: 80px;
+    text-align: end;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    background-color: orange;
   }
   
   .carousel-item img {

@@ -18,10 +18,10 @@ function Sidebar() {
                         ☰
                     </div>
                     <ul className="sidebar-links">
-                        <li><i className="icon">🏠</i>{isOpen && <span>Home</span>}</li>
-                        <li><i className="icon">🔍</i>{isOpen && <span>Search</span>}</li>
-                        <li><i className="icon">📄</i>{isOpen && <span>Documents</span>}</li>
-                        <li><i className="icon">⚙️</i>{isOpen && <span>Settings</span>}</li>
+                        <li><a href="/"><i className="icon">🏠</i>{isOpen && <span>Home</span>}</a></li>
+                        <li><a href=""><i className="icon">🔍</i>{isOpen && <span>Platinum Casino</span>}</a></li>
+                        <li><a href=""><i className="icon">📄</i>{isOpen && <span>Platinum Bets</span>}</a></li>
+                        <li><a href=""><i className="icon">⚙️</i>{isOpen && <span>Platinum Funding</span>}</a></li>
                     </ul>
                 </div>
                 <div className="content">

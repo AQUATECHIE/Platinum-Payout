@@ -39,6 +39,11 @@
   align-items: center;
   cursor: pointer;
 }
+.sidebar-links li a{
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+}
 
 .sidebar-links li .icon {
   margin-right: 15px;

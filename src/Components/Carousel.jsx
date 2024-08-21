@@ -57,7 +57,7 @@ function Carousel() {
                             <div className="carousel-caption">
                                 <h3>{slide.label}</h3>
                                 <p>{slide.text}</p>
-                                <a href="#" className='Bet'>Bet now</a>
+                                <a href="#" className='Bet'><button>Bet now</button></a>
                             </div>
                         </div>
                     ))}
